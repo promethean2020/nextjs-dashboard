@@ -1,0 +1,15 @@
+# Copy from .env.local on the Vercel dashboard
+# https://nextjs.org/learn/dashboard-app/setting-up-your-database#create-a-postgres-database
+# `openssl rand -base64 32`
+AUTH_SECRET="Ga2iAlYw5nTf"
+POSTGRES_URL="postgres://default:Ga2iAlYw5nTf@ep-wild-wood-a4exzwmn-pooler.us-east-1.aws.neon.tech:5432/verceldb?sslmode=require"
+POSTGRES_PRISMA_URL="postgres://default:Ga2iAlYw5nTf@ep-wild-wood-a4exzwmn-pooler.us-east-1.aws.neon.tech:5432/verceldb?sslmode=require&pgbouncer=true&connect_timeout=15"
+POSTGRES_URL_NO_SSL="postgres://default:Ga2iAlYw5nTf@ep-wild-wood-a4exzwmn-pooler.us-east-1.aws.neon.tech:5432/verceldb"
+POSTGRES_URL_NON_POOLING="postgres://default:Ga2iAlYw5nTf@ep-wild-wood-a4exzwmn.us-east-1.aws.neon.tech:5432/verceldb?sslmode=require"
+POSTGRES_USER="default"
+POSTGRES_HOST="ep-wild-wood-a4exzwmn-pooler.us-east-1.aws.neon.tech"
+POSTGRES_PASSWORD="Ga2iAlYw5nTf"
+POSTGRES_DATABASE="verceldb"
+# `openssl rand -base64 32`
+
+AUTH_URL=http://localhost:3000/api/auth
